@@ -1,0 +1,12 @@
+.nav{
+    background-color: purple;
+   position:relative;
+   height:52vh;
+   width: 30%;
+   padding:10px
+}
+.text{
+    position:absolute;
+    top:40%;
+    left:10%;
+} 

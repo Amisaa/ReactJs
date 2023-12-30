@@ -1,0 +1,14 @@
+.main{
+    background: linear-gradient(45deg,purple,purple);
+ position: absolute;
+ top: 18%;
+ left: 33%;
+ width: 64%;
+ height: 52%;
+   padding:10px
+}
+.letter{
+    position:absolute;
+    top:40%;
+    right:30%;
+} 
