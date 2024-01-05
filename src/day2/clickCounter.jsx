@@ -17,7 +17,7 @@ const ClickCounter = () => {
   return (
     <div>
       <button onClick={handleIncrement}>Click me to increase</button>
-      <button onClick={handleDecrement}>Click me to decrease</button>
+      <button onClick={handleDecrement}>Click me to decrease by 2</button>
       {/* <button onClick={()=> handleClick(1)}>demo 1 </button> */}
       <p> Clicked{count} times</p>
     </div>

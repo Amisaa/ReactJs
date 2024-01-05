@@ -12,7 +12,7 @@ const ToDoList = () => {
     e.preventDefault(); 
     if (!inputValue) return;
     setTextList([...textlist, inputValue]);
-    setInputValue("");
+    setInputValue(""); //cleaning the input list 
   };
 
   const removeItem = (index) => {
@@ -27,7 +27,7 @@ const ToDoList = () => {
         <h2>TO DO LIST</h2>
         <label>
           <input
-            type="text"
+            type="number"
             value={inputValue}
             onChange={handleInputChange}
             placeholder="Enter your to-do"
